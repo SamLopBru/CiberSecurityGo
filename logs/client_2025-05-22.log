@@ -1,0 +1,233 @@
+[cli] 2025/05/22 10:22:38.306763 **************************************************************************************************
+[cli] 2025/05/22 10:22:38.306763 Iniciando cliente...
+[cli] 2025/05/22 10:22:38.307758 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:22:47.802073 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:22:49.611911 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:22:49.612625 Código OTP proporcionado no es válido
+[cli] 2025/05/22 10:22:49.612625 ERROR iniciando sesión
+[cli] 2025/05/22 10:22:50.961168 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:24:14.975503 Enviando solicitud 'register' al servidor
+[cli] 2025/05/22 10:24:14.975503 Registro exitoso
+[cli] 2025/05/22 10:24:41.044962 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:24:50.730554 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:24:50.730554 ERROR iniciando sesión
+[cli] 2025/05/22 10:24:50.884564 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:24:54.821092 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:25:05.205366 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:25:05.205366 Login exitoso. ¿Es admin? true
+[cli] 2025/05/22 10:25:05.205366 Código OTP proporcionado es válido
+[cli] 2025/05/22 10:25:05.205366 ------------------------Login exitoso para el usuario pepe---------------------------
+[cli] 2025/05/22 10:25:06.301054 Usuario: pepe, ¿Es admin? true
+[cli] 2025/05/22 10:25:28.140331 Usuario: pepe, ¿Es admin? true
+[cli] 2025/05/22 10:25:31.174185 Enviando solicitud 'logout' al servidor
+[cli] 2025/05/22 10:25:31.174778 Sesión cerrada correctamente
+[cli] 2025/05/22 10:25:32.068121 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:28:49.746008 Enviando solicitud 'register' al servidor
+[cli] 2025/05/22 10:28:49.746008 Registro exitoso
+[cli] 2025/05/22 10:31:05.548157 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:31:32.403496 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:31:32.403496 ERROR iniciando sesión
+[cli] 2025/05/22 10:31:33.444063 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:31:38.382227 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:32:32.189827 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:32:32.189827 Código OTP proporcionado no es válido
+[cli] 2025/05/22 10:32:32.190462 ERROR iniciando sesión
+[cli] 2025/05/22 10:32:33.092213 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:32:41.074270 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:32:46.189150 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:32:46.189150 Código OTP proporcionado no es válido
+[cli] 2025/05/22 10:32:46.189150 ERROR iniciando sesión
+[cli] 2025/05/22 10:32:46.772756 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:33:02.645803 Enviando solicitud 'register' al servidor
+[cli] 2025/05/22 10:33:03.476046 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:33:13.918155 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:33:21.614613 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:33:21.614613 Código OTP proporcionado no es válido
+[cli] 2025/05/22 10:33:21.614613 ERROR iniciando sesión
+[cli] 2025/05/22 10:33:24.540471 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:33:28.912621 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:33:37.093990 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:33:37.094682 Login exitoso. ¿Es admin? true
+[cli] 2025/05/22 10:33:37.094682 Código OTP proporcionado es válido
+[cli] 2025/05/22 10:33:37.094682 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 10:34:58.247112 **************************************************************************************************
+[cli] 2025/05/22 10:34:58.247112 Iniciando cliente...
+[cli] 2025/05/22 10:34:58.247699 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:35:14.885558 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:35:23.485409 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:35:23.485409 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 10:35:23.486019 Código OTP proporcionado es válido
+[cli] 2025/05/22 10:35:23.486019 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 10:35:52.585710 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:37:52.861616 Enviando solicitud 'addPaciente' al servidor
+[cli] 2025/05/22 10:37:52.861616 ERROR AL CREAR EL EXPEDIENTE
+[cli] 2025/05/22 10:37:53.963766 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:38:21.329653 Enviando solicitud 'addPaciente' al servidor
+[cli] 2025/05/22 10:38:21.330210 Expediente creado correctamente
+[cli] 2025/05/22 10:38:48.124310 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:39:27.410636 **************************************************************************************************
+[cli] 2025/05/22 10:39:27.410636 Iniciando cliente...
+[cli] 2025/05/22 10:39:27.411263 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:39:39.747465 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:39:45.910099 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:39:45.910099 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 10:39:45.910099 Código OTP proporcionado es válido
+[cli] 2025/05/22 10:39:45.910099 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 10:39:47.915798 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:40:24.853053 Enviando solicitud 'addPaciente' al servidor
+[cli] 2025/05/22 10:40:24.853053 ERROR AL CREAR EL EXPEDIENTE
+[cli] 2025/05/22 10:40:27.860245 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:41:22.486252 **************************************************************************************************
+[cli] 2025/05/22 10:41:22.486252 Iniciando cliente...
+[cli] 2025/05/22 10:41:22.486821 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:41:28.230827 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:41:34.613703 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:41:34.613703 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 10:41:34.613703 Código OTP proporcionado es válido
+[cli] 2025/05/22 10:41:34.613703 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 10:41:36.132028 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:42:01.856899 Enviando solicitud 'addPaciente' al servidor
+[cli] 2025/05/22 10:42:01.856899 Expediente creado correctamente
+[cli] 2025/05/22 10:42:26.458833 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:43:06.313091 **************************************************************************************************
+[cli] 2025/05/22 10:43:06.313683 Iniciando cliente...
+[cli] 2025/05/22 10:43:06.313683 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:43:11.982991 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:43:17.149354 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:43:17.149354 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 10:43:17.149980 Código OTP proporcionado es válido
+[cli] 2025/05/22 10:43:17.149980 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 10:43:18.435913 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:43:35.402337 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/22 10:43:35.402337 DNI introducido es correcto
+[cli] 2025/05/22 10:46:23.824708 **************************************************************************************************
+[cli] 2025/05/22 10:46:23.824708 Iniciando cliente...
+[cli] 2025/05/22 10:46:23.825367 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:47:09.001635 Enviando solicitud 'register' al servidor
+[cli] 2025/05/22 10:47:09.620023 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:47:26.628175 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:47:34.749754 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:47:34.749754 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 10:47:34.749754 Código OTP proporcionado es válido
+[cli] 2025/05/22 10:47:34.749754 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 10:47:55.723114 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:48:15.020999 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/22 10:48:15.021585 DNI introducido es correcto
+[cli] 2025/05/22 10:49:12.297062 Enviando solicitud 'crearExpediente' al servidor
+[cli] 2025/05/22 10:49:12.297062 Expediente creado correctamente
+[cli] 2025/05/22 10:50:07.203524 Enviando solicitud 'crearExpediente' al servidor
+[cli] 2025/05/22 10:50:07.203524 Expediente creado correctamente
+[cli] 2025/05/22 10:53:35.136429 **************************************************************************************************
+[cli] 2025/05/22 10:53:35.136429 Iniciando cliente...
+[cli] 2025/05/22 10:53:35.137041 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:53:43.997722 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 10:53:49.485262 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 10:53:49.485262 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 10:53:49.485262 Código OTP proporcionado es válido
+[cli] 2025/05/22 10:53:49.485262 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 10:53:50.163117 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:53:54.485422 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/22 10:53:54.485422 DNI introducido es correcto
+[cli] 2025/05/22 10:57:06.138476 Enviando solicitud 'modificarExpediente' al servidor
+[cli] 2025/05/22 10:57:06.138999 Observación añadida correctamente
+[cli] 2025/05/22 10:57:52.284036 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 10:57:53.574209 Enviando solicitud 'logout' al servidor
+[cli] 2025/05/22 10:57:53.574209 Sesión cerrada correctamente
+[cli] 2025/05/22 10:58:06.547488 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 10:58:08.515143 Saliendo del cliente...
+[cli] 2025/05/22 11:50:38.585238 **************************************************************************************************
+[cli] 2025/05/22 11:50:38.585840 Iniciando cliente...
+[cli] 2025/05/22 11:50:38.585840 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 11:54:30.279252 Enviando solicitud 'register' al servidor
+[cli] 2025/05/22 11:54:30.279252 Registro exitoso
+[cli] 2025/05/22 11:54:48.403359 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 11:55:15.901937 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 11:55:20.707988 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 11:55:20.707988 Login exitoso. ¿Es admin? true
+[cli] 2025/05/22 11:55:20.707988 Código OTP proporcionado es válido
+[cli] 2025/05/22 11:55:20.707988 ------------------------Login exitoso para el usuario Admin---------------------------
+[cli] 2025/05/22 11:55:22.930582 Usuario: Admin, ¿Es admin? true
+[cli] 2025/05/22 12:04:52.993389 Usuario: Admin, ¿Es admin? true
+[cli] 2025/05/22 12:04:55.063946 Enviando solicitud 'logout' al servidor
+[cli] 2025/05/22 12:04:55.064491 Sesión cerrada correctamente
+[cli] 2025/05/22 12:04:55.610795 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:05:00.164356 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:05:00.164356 ERROR iniciando sesión
+[cli] 2025/05/22 12:05:26.562616 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:05:31.818730 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:05:38.572013 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 12:05:38.572013 Login exitoso. ¿Es admin? true
+[cli] 2025/05/22 12:05:38.572013 Código OTP proporcionado es válido
+[cli] 2025/05/22 12:05:38.572013 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 12:05:39.730649 Usuario: l, ¿Es admin? true
+[cli] 2025/05/22 12:05:46.156291 Enviando solicitud 'logout' al servidor
+[cli] 2025/05/22 12:05:46.156875 Sesión cerrada correctamente
+[cli] 2025/05/22 12:05:47.123065 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:05:50.679858 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:05:50.679858 ERROR iniciando sesión
+[cli] 2025/05/22 12:05:51.834479 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:05:55.445249 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:06:00.356005 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 12:06:00.356005 Código OTP proporcionado no es válido
+[cli] 2025/05/22 12:06:00.356005 ERROR iniciando sesión
+[cli] 2025/05/22 12:06:02.643090 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:06:05.422260 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:06:09.907453 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 12:06:09.907453 Login exitoso. ¿Es admin? true
+[cli] 2025/05/22 12:06:09.907453 Código OTP proporcionado es válido
+[cli] 2025/05/22 12:06:09.907453 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 12:06:10.714893 Usuario: l, ¿Es admin? true
+[cli] 2025/05/22 12:06:14.066380 Saliendo del cliente...
+[cli] 2025/05/22 12:07:37.410791 **************************************************************************************************
+[cli] 2025/05/22 12:07:37.410791 Iniciando cliente...
+[cli] 2025/05/22 12:07:37.411376 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:07:43.008008 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:07:51.051635 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 12:07:51.051635 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 12:07:51.051635 Código OTP proporcionado es válido
+[cli] 2025/05/22 12:07:51.051635 ------------------------Login exitoso para el usuario l---------------------------
+[cli] 2025/05/22 12:07:51.826537 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 12:08:10.740568 Enviando solicitud 'addPaciente' al servidor
+[cli] 2025/05/22 12:08:10.740568 ERROR AL CREAR EL EXPEDIENTE
+[cli] 2025/05/22 12:08:42.522224 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 12:08:48.171556 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/22 12:08:48.171556 ADVERTENCIA: el dni introducido: 243232432d, no existe
+[cli] 2025/05/22 12:09:03.825340 Usuario: l, ¿Es admin? false
+[cli] 2025/05/22 12:09:08.412383 Enviando solicitud 'logout' al servidor
+[cli] 2025/05/22 12:09:08.413005 Sesión cerrada correctamente
+[cli] 2025/05/22 12:09:09.346361 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:09:20.836711 Enviando solicitud 'register' al servidor
+[cli] 2025/05/22 12:09:20.836711 Registro exitoso
+[cli] 2025/05/22 12:09:53.114466 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:10:01.666627 Enviando solicitud 'register' al servidor
+[cli] 2025/05/22 12:10:01.666627 Registro exitoso
+[cli] 2025/05/22 12:10:26.641092 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:10:29.919414 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:10:36.555022 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 12:10:36.555022 Código OTP proporcionado no es válido
+[cli] 2025/05/22 12:10:36.555022 ERROR iniciando sesión
+[cli] 2025/05/22 12:10:38.174107 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:10:49.345054 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:10:53.242799 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 12:10:53.242799 Código OTP proporcionado no es válido
+[cli] 2025/05/22 12:10:53.243464 ERROR iniciando sesión
+[cli] 2025/05/22 12:10:57.562451 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:11:13.937843 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:11:20.451730 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 12:11:20.451730 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 12:11:20.451730 Código OTP proporcionado es válido
+[cli] 2025/05/22 12:11:20.451730 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/22 12:11:21.154620 Usuario: y, ¿Es admin? false
+[cli] 2025/05/22 12:11:34.226470 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/22 12:11:34.226470 DNI introducido es correcto
+[cli] 2025/05/22 12:12:24.599588 **************************************************************************************************
+[cli] 2025/05/22 12:12:24.600303 Iniciando cliente...
+[cli] 2025/05/22 12:12:24.600303 Usuario: , ¿Es admin? false
+[cli] 2025/05/22 12:12:30.137571 Enviando solicitud 'login' al servidor
+[cli] 2025/05/22 12:12:35.268414 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/22 12:12:35.268414 Login exitoso. ¿Es admin? false
+[cli] 2025/05/22 12:12:35.268414 Código OTP proporcionado es válido
+[cli] 2025/05/22 12:12:35.268414 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/22 12:12:35.842034 Usuario: y, ¿Es admin? false
+[cli] 2025/05/22 12:12:40.659921 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/22 12:12:40.660467 DNI introducido es correcto

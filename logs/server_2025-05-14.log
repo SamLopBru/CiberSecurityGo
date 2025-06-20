@@ -1,0 +1,398 @@
+[srv] 2025/05/14 11:12:32.540886 Iniciando servidor...
+[srv] 2025/05/14 11:12:32.540886 Cargando variables de entorno...
+[srv] 2025/05/14 11:12:32.541479 MASTER_PASSWORD cargada.
+[srv] 2025/05/14 11:12:32.542107 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 11:12:53.321634 Solicitud recibida: IP=[::1]:51905, Método=POST, Ruta=/, Comando=register, Usuario=h
+[srv] 2025/05/14 11:12:53.537432 Respuesta enviada para comando 'register' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:13:46.098435 Solicitud recibida: IP=[::1]:51905, Método=POST, Ruta=/, Comando=login, Usuario=h
+[srv] 2025/05/14 11:13:46.305034 Token generado para el usuario h
+[srv] 2025/05/14 11:13:46.305034 Login exitoso para usuario h desde IP [::1]:51905
+[srv] 2025/05/14 11:13:46.305034 Respuesta enviada para comando 'login' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:13:56.091221 Solicitud recibida: IP=[::1]:51905, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=h
+[srv] 2025/05/14 11:13:56.091736 Autenticación TOTP exitosa
+[srv] 2025/05/14 11:13:56.092299 Respuesta enviada para comando 'verifyTOTP' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:14:38.131277 Solicitud recibida: IP=[::1]:51905, Método=POST, Ruta=/, Comando=addPaciente, Usuario=h
+[srv] 2025/05/14 11:14:38.143777 Paciente creado
+[srv] 2025/05/14 11:14:38.143777 Respuesta enviada para comando 'addPaciente' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:15:00.931381 Solicitud recibida: IP=[::1]:51905, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=h
+[srv] 2025/05/14 11:15:00.932158 El DNI introducido no es corercto en obtener expedientes
+[srv] 2025/05/14 11:16:11.107483 Iniciando servidor...
+[srv] 2025/05/14 11:16:11.107483 Cargando variables de entorno...
+[srv] 2025/05/14 11:16:11.108001 MASTER_PASSWORD cargada.
+[srv] 2025/05/14 11:16:11.108591 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 11:16:19.980517 Solicitud recibida: IP=[::1]:51926, Método=POST, Ruta=/, Comando=login, Usuario=h
+[srv] 2025/05/14 11:16:20.196406 Token generado para el usuario h
+[srv] 2025/05/14 11:16:20.196406 Login exitoso para usuario h desde IP [::1]:51926
+[srv] 2025/05/14 11:16:20.197408 Respuesta enviada para comando 'login' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:16:24.074853 Solicitud recibida: IP=[::1]:51926, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=h
+[srv] 2025/05/14 11:16:24.074853 Autenticación TOTP exitosa
+[srv] 2025/05/14 11:16:24.074853 Respuesta enviada para comando 'verifyTOTP' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:16:44.035177 Solicitud recibida: IP=[::1]:51926, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=h
+[srv] 2025/05/14 11:16:44.036256 El DNI introducido no es correcto en obtener expedientes
+[srv] 2025/05/14 11:16:44.036256 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:17:05.796164 Solicitud recibida: IP=[::1]:51926, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=h
+[srv] 2025/05/14 11:17:05.796746 Expedientes obtenidos
+[srv] 2025/05/14 11:17:05.796746 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:17:05.797866 Solicitud recibida: IP=[::1]:51926, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=h
+[srv] 2025/05/14 11:17:05.798431 Expedientes obtenidos
+[srv] 2025/05/14 11:17:05.798431 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:17:09.316299 Solicitud recibida: IP=[::1]:51926, Método=POST, Ruta=/, Comando=crearExpediente, Usuario=h
+[srv] 2025/05/14 11:17:09.322767 Expediente creado y añadido al historial correctamente
+[srv] 2025/05/14 11:17:09.323328 Respuesta enviada para comando 'crearExpediente' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:17:10.860218 Solicitud recibida: IP=[::1]:51926, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=h
+[srv] 2025/05/14 11:17:10.860218 Expedientes obtenidos
+[srv] 2025/05/14 11:17:10.860218 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:17:54.514808 Solicitud recibida: IP=[::1]:51926, Método=POST, Ruta=/, Comando=modificarExpediente, Usuario=h
+[srv] 2025/05/14 11:17:54.523649 Expediente modificado correctamente
+[srv] 2025/05/14 11:17:54.523649 Respuesta enviada para comando 'modificarExpediente' (Usuario: h): Success=0, Mensaje=''
+[srv] 2025/05/14 11:48:01.732665 **************************************************************************************************
+[srv] 2025/05/14 11:48:01.733244 Iniciando servidor...
+[srv] 2025/05/14 11:48:01.733244 Cargando variables de entorno...
+[srv] 2025/05/14 11:48:01.744846 MASTER_PASSWORD cargada.
+[srv] 2025/05/14 11:48:01.759987 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 11:49:07.817671 Solicitud recibida: IP=[::1]:52247, Método=POST, Ruta=/, Comando=register, Usuario=y
+[srv] 2025/05/14 11:49:08.035980 Respuesta enviada para comando 'register' (Usuario: y): Success=0
+[srv] 2025/05/14 11:49:55.974976 Solicitud recibida: IP=[::1]:52247, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 11:49:56.184026 Token generado para el usuario y
+[srv] 2025/05/14 11:49:56.187255 --------------------Login exitoso para usuario y desde IP [::1]:52247-------------------
+[srv] 2025/05/14 11:49:56.187255 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 11:50:05.364898 Solicitud recibida: IP=[::1]:52247, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 11:50:05.365459 Autenticación TOTP exitosa
+[srv] 2025/05/14 11:50:05.365459 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 11:52:25.084532 Solicitud recibida: IP=[::1]:52247, Método=POST, Ruta=/, Comando=addPaciente, Usuario=y
+[srv] 2025/05/14 11:52:25.085627 El paciente y ya existe.
+[srv] 2025/05/14 12:40:11.542869 **************************************************************************************************
+[srv] 2025/05/14 12:40:11.542869 Iniciando servidor...
+[srv] 2025/05/14 12:40:11.542869 Cargando variables de entorno...
+[srv] 2025/05/14 12:40:11.555805 MASTER_PASSWORD cargada.
+[srv] 2025/05/14 12:40:11.574615 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 12:40:19.803117 Solicitud recibida: IP=[::1]:52549, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 12:40:20.018358 Token generado para el usuario y
+[srv] 2025/05/14 12:40:20.018358 --------------------Login exitoso para usuario y desde IP [::1]:52549-------------------
+[srv] 2025/05/14 12:40:20.018358 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 12:40:25.397778 Solicitud recibida: IP=[::1]:52549, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 12:40:25.398290 Autenticación TOTP exitosa
+[srv] 2025/05/14 12:40:25.398290 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 12:40:47.132644 Solicitud recibida: IP=[::1]:52549, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 12:40:47.133230 Expedientes obtenidos
+[srv] 2025/05/14 12:40:47.133230 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 12:40:47.134403 Solicitud recibida: IP=[::1]:52549, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 12:40:47.134940 Expedientes obtenidos
+[srv] 2025/05/14 12:40:47.134940 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 12:42:31.029451 Solicitud recibida: IP=[::1]:52549, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 12:42:31.030084 Expedientes obtenidos
+[srv] 2025/05/14 12:42:31.030084 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 12:42:37.284668 Solicitud recibida: IP=[::1]:52549, Método=POST, Ruta=/, Comando=logout, Usuario=y
+[srv] 2025/05/14 12:42:37.285362 Sesión cerrada correctamente
+[srv] 2025/05/14 12:42:37.285362 Respuesta enviada para comando 'logout' (Usuario: y): Success=0
+[srv] 2025/05/14 12:55:21.194112 **************************************************************************************************
+[srv] 2025/05/14 12:55:21.194669 Iniciando servidor...
+[srv] 2025/05/14 12:55:21.194669 Cargando variables de entorno...
+[srv] 2025/05/14 12:55:21.194669 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 12:55:21.195838 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 12:57:47.170818 **************************************************************************************************
+[srv] 2025/05/14 12:57:47.170818 Iniciando servidor...
+[srv] 2025/05/14 12:57:47.171516 Cargando variables de entorno...
+[srv] 2025/05/14 12:57:47.188639 ERROR: La clave maestra proporcionada no coincide con la esperada. Verificar MASTER_PASSWORD
+[srv] 2025/05/14 13:08:24.040927 **************************************************************************************************
+[srv] 2025/05/14 13:08:24.040927 Iniciando servidor...
+[srv] 2025/05/14 13:08:24.040927 Cargando variables de entorno...
+[srv] 2025/05/14 13:08:24.041548 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 13:08:24.042037 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 13:08:29.746657 Solicitud recibida: IP=[::1]:52958, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 13:08:29.928520 Token generado para el usuario y
+[srv] 2025/05/14 13:08:29.928520 --------------------Login exitoso para usuario y desde IP [::1]:52958-------------------
+[srv] 2025/05/14 13:08:29.928520 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 13:08:37.789884 Solicitud recibida: IP=[::1]:52958, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 13:08:37.790561 Autenticación TOTP exitosa
+[srv] 2025/05/14 13:08:37.790561 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 13:08:44.853821 Solicitud recibida: IP=[::1]:52958, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:08:44.854146 Expedientes obtenidos
+[srv] 2025/05/14 13:08:44.854787 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:08:44.855999 Solicitud recibida: IP=[::1]:52958, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:08:44.856574 Expedientes obtenidos
+[srv] 2025/05/14 13:08:44.856574 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:08:48.123995 Solicitud recibida: IP=[::1]:52958, Método=POST, Ruta=/, Comando=crearExpediente, Usuario=y
+[srv] 2025/05/14 13:08:48.136011 Expediente creado y añadido al historial correctamente
+[srv] 2025/05/14 13:08:48.136011 Respuesta enviada para comando 'crearExpediente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:09:12.427511 Solicitud recibida: IP=[::1]:52958, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:09:12.428700 Expedientes obtenidos
+[srv] 2025/05/14 13:09:12.428700 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:10:10.496816 **************************************************************************************************
+[srv] 2025/05/14 13:10:10.496816 Iniciando servidor...
+[srv] 2025/05/14 13:10:10.496816 Cargando variables de entorno...
+[srv] 2025/05/14 13:10:10.497340 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 13:10:10.497861 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 13:10:37.713794 Solicitud recibida: IP=[::1]:52970, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 13:10:37.891202 Token generado para el usuario y
+[srv] 2025/05/14 13:10:37.891202 --------------------Login exitoso para usuario y desde IP [::1]:52970-------------------
+[srv] 2025/05/14 13:10:37.891202 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 13:10:43.125090 Solicitud recibida: IP=[::1]:52970, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 13:10:43.126312 Autenticación TOTP exitosa
+[srv] 2025/05/14 13:10:43.126312 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 13:10:49.412317 Solicitud recibida: IP=[::1]:52970, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:10:49.413242 Expedientes obtenidos
+[srv] 2025/05/14 13:10:49.413242 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:10:49.414403 Solicitud recibida: IP=[::1]:52970, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:10:49.414403 Expedientes obtenidos
+[srv] 2025/05/14 13:10:49.414403 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:14:38.397328 Solicitud recibida: IP=[::1]:52970, Método=POST, Ruta=/, Comando=modificarExpediente, Usuario=y
+[srv] 2025/05/14 13:14:38.407761 Expediente modificado correctamente
+[srv] 2025/05/14 13:14:38.407761 Respuesta enviada para comando 'modificarExpediente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:14:43.237980 Solicitud recibida: IP=[::1]:52970, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:14:43.238566 Expedientes obtenidos
+[srv] 2025/05/14 13:14:43.238566 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:14:49.885918 Solicitud recibida: IP=[::1]:52970, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:14:49.887169 Expedientes obtenidos
+[srv] 2025/05/14 13:14:49.887169 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:15:04.981462 Solicitud recibida: IP=[::1]:52970, Método=POST, Ruta=/, Comando=modificarExpediente, Usuario=y
+[srv] 2025/05/14 13:15:04.993204 Expediente modificado correctamente
+[srv] 2025/05/14 13:15:04.993204 Respuesta enviada para comando 'modificarExpediente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:15:35.543811 **************************************************************************************************
+[srv] 2025/05/14 13:15:35.543811 Iniciando servidor...
+[srv] 2025/05/14 13:15:35.543811 Cargando variables de entorno...
+[srv] 2025/05/14 13:15:35.544330 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 13:15:35.544859 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 13:15:46.571050 Solicitud recibida: IP=[::1]:52985, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 13:15:46.736545 Token generado para el usuario y
+[srv] 2025/05/14 13:15:46.736545 --------------------Login exitoso para usuario y desde IP [::1]:52985-------------------
+[srv] 2025/05/14 13:15:46.736545 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 13:15:48.461882 Solicitud recibida: IP=[::1]:52985, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 13:15:48.461882 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 13:16:40.324923 **************************************************************************************************
+[srv] 2025/05/14 13:16:40.324923 Iniciando servidor...
+[srv] 2025/05/14 13:16:40.324923 Cargando variables de entorno...
+[srv] 2025/05/14 13:16:40.325453 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 13:16:40.339396 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 13:16:53.513349 Solicitud recibida: IP=[::1]:52996, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 13:16:53.757649 Token generado para el usuario y
+[srv] 2025/05/14 13:16:53.757649 --------------------Login exitoso para usuario y desde IP [::1]:52996-------------------
+[srv] 2025/05/14 13:16:53.757649 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 13:16:54.781321 Solicitud recibida: IP=[::1]:52996, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 13:16:54.781835 Código ToTP inválido para el usuario y
+[srv] 2025/05/14 13:16:54.781835 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 13:52:56.118144 **************************************************************************************************
+[srv] 2025/05/14 13:52:56.118144 Iniciando servidor...
+[srv] 2025/05/14 13:52:56.118144 Cargando variables de entorno...
+[srv] 2025/05/14 13:52:56.118758 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 13:52:56.119278 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 13:53:07.773794 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 13:53:07.952768 Token generado para el usuario y
+[srv] 2025/05/14 13:53:07.952768 --------------------Login exitoso para usuario y desde IP [::1]:53210-------------------
+[srv] 2025/05/14 13:53:07.952768 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 13:53:09.494820 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 13:53:09.495340 Código ToTP inválido para el usuario y
+[srv] 2025/05/14 13:53:09.495340 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 13:53:26.903574 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 13:53:27.095396 Token generado para el usuario y
+[srv] 2025/05/14 13:53:27.095396 --------------------Login exitoso para usuario y desde IP [::1]:53210-------------------
+[srv] 2025/05/14 13:53:27.095396 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 13:53:30.653107 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 13:53:30.653625 Autenticación TOTP exitosa
+[srv] 2025/05/14 13:53:30.653625 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 13:54:26.909507 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=addPaciente, Usuario=y
+[srv] 2025/05/14 13:54:26.922928 Paciente creado
+[srv] 2025/05/14 13:54:26.923555 Respuesta enviada para comando 'addPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:54:32.974126 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:54:32.974639 El DNI introducido no es correcto en obtener expedientes
+[srv] 2025/05/14 13:54:32.974639 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:54:39.590278 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:54:39.590792 Expedientes obtenidos
+[srv] 2025/05/14 13:54:39.591344 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:54:39.592505 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:54:39.592505 Expedientes obtenidos
+[srv] 2025/05/14 13:54:39.592505 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:54:43.133146 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=crearExpediente, Usuario=y
+[srv] 2025/05/14 13:54:43.148545 Expediente creado y añadido al historial correctamente
+[srv] 2025/05/14 13:54:43.148545 Respuesta enviada para comando 'crearExpediente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:54:44.133669 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:54:44.134317 Expedientes obtenidos
+[srv] 2025/05/14 13:54:44.134317 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:54:47.069311 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=crearExpediente, Usuario=y
+[srv] 2025/05/14 13:54:47.069894 Faltan credenciales al añadir expedientes
+[srv] 2025/05/14 13:54:47.069894 Respuesta enviada para comando 'crearExpediente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:55:00.195776 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:55:00.196284 Expedientes obtenidos
+[srv] 2025/05/14 13:55:00.196284 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:56:17.096893 Solicitud recibida: IP=[::1]:53210, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 13:56:17.097492 Expedientes obtenidos
+[srv] 2025/05/14 13:56:17.097492 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 13:57:41.180497 **************************************************************************************************
+[srv] 2025/05/14 13:57:41.181185 Iniciando servidor...
+[srv] 2025/05/14 13:57:41.181185 Cargando variables de entorno...
+[srv] 2025/05/14 13:57:41.181185 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 13:57:41.181713 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 13:58:24.623325 Solicitud recibida: IP=[::1]:53222, Método=POST, Ruta=/, Comando=register, Usuario=
+[srv] 2025/05/14 13:58:24.623325 Respuesta enviada para comando 'register' (Usuario: ): Success=0
+[srv] 2025/05/14 13:59:10.992320 **************************************************************************************************
+[srv] 2025/05/14 13:59:10.992320 Iniciando servidor...
+[srv] 2025/05/14 13:59:10.992320 Cargando variables de entorno...
+[srv] 2025/05/14 13:59:10.993016 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 13:59:10.993016 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 13:59:16.469977 Solicitud recibida: IP=[::1]:53227, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 13:59:16.695015 Token generado para el usuario y
+[srv] 2025/05/14 13:59:16.695015 --------------------Login exitoso para usuario y desde IP [::1]:53227-------------------
+[srv] 2025/05/14 13:59:16.695015 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 13:59:21.133777 Solicitud recibida: IP=[::1]:53227, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 13:59:21.134388 Autenticación TOTP exitosa
+[srv] 2025/05/14 13:59:21.134388 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 14:01:32.683653 **************************************************************************************************
+[srv] 2025/05/14 14:01:32.683653 Iniciando servidor...
+[srv] 2025/05/14 14:01:32.683653 Cargando variables de entorno...
+[srv] 2025/05/14 14:01:32.684184 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 14:01:32.684184 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 14:02:00.672713 **************************************************************************************************
+[srv] 2025/05/14 14:02:00.673423 Iniciando servidor...
+[srv] 2025/05/14 14:02:00.673423 Cargando variables de entorno...
+[srv] 2025/05/14 14:02:00.673423 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 14:02:00.673946 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 14:02:09.701425 Solicitud recibida: IP=[::1]:53236, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 14:02:09.883971 Token generado para el usuario y
+[srv] 2025/05/14 14:02:09.883971 --------------------Login exitoso para usuario y desde IP [::1]:53236-------------------
+[srv] 2025/05/14 14:02:09.883971 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 14:02:15.661331 Solicitud recibida: IP=[::1]:53236, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 14:02:15.661848 Autenticación TOTP exitosa
+[srv] 2025/05/14 14:02:15.661848 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 14:02:33.461698 Solicitud recibida: IP=[::1]:53236, Método=POST, Ruta=/, Comando=addPaciente, Usuario=y
+[srv] 2025/05/14 14:02:33.462764 El paciente g ya existe.
+[srv] 2025/05/14 14:02:33.462764 Respuesta enviada para comando 'addPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:02:40.523255 Solicitud recibida: IP=[::1]:53236, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:02:40.523255 Expedientes obtenidos
+[srv] 2025/05/14 14:02:40.523255 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:02:40.528099 Solicitud recibida: IP=[::1]:53236, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:02:40.528655 Expedientes obtenidos
+[srv] 2025/05/14 14:02:40.528655 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:07:33.727750 **************************************************************************************************
+[srv] 2025/05/14 14:07:33.727750 Iniciando servidor...
+[srv] 2025/05/14 14:07:33.727750 Cargando variables de entorno...
+[srv] 2025/05/14 14:07:33.728663 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 14:07:33.729378 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 14:07:42.938967 Solicitud recibida: IP=[::1]:53299, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 14:07:43.118355 Token generado para el usuario y
+[srv] 2025/05/14 14:07:43.118355 --------------------Login exitoso para usuario y desde IP [::1]:53299-------------------
+[srv] 2025/05/14 14:07:43.118355 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 14:07:47.966886 Solicitud recibida: IP=[::1]:53299, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 14:07:47.968072 Autenticación TOTP exitosa
+[srv] 2025/05/14 14:07:47.968072 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 14:07:53.998051 Solicitud recibida: IP=[::1]:53299, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:07:53.999189 Expedientes obtenidos
+[srv] 2025/05/14 14:07:53.999189 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:07:54.000889 Solicitud recibida: IP=[::1]:53299, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:07:54.002035 Expedientes obtenidos
+[srv] 2025/05/14 14:07:54.002035 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:09:03.698955 **************************************************************************************************
+[srv] 2025/05/14 14:09:03.698955 Iniciando servidor...
+[srv] 2025/05/14 14:09:03.698955 Cargando variables de entorno...
+[srv] 2025/05/14 14:09:03.699668 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 14:09:03.699668 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 14:09:10.689674 Solicitud recibida: IP=[::1]:53312, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 14:09:10.894274 Token generado para el usuario y
+[srv] 2025/05/14 14:09:10.894274 --------------------Login exitoso para usuario y desde IP [::1]:53312-------------------
+[srv] 2025/05/14 14:09:10.894274 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 14:09:16.222612 Solicitud recibida: IP=[::1]:53312, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 14:09:16.223190 Autenticación TOTP exitosa
+[srv] 2025/05/14 14:09:16.223190 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 14:09:40.605277 Solicitud recibida: IP=[::1]:53312, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:09:40.606384 Expedientes obtenidos
+[srv] 2025/05/14 14:09:40.606384 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:09:40.607518 Solicitud recibida: IP=[::1]:53312, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:09:40.608184 Expedientes obtenidos
+[srv] 2025/05/14 14:09:40.608184 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:16:10.077332 **************************************************************************************************
+[srv] 2025/05/14 14:16:10.077332 Iniciando servidor...
+[srv] 2025/05/14 14:16:10.077332 Cargando variables de entorno...
+[srv] 2025/05/14 14:16:10.078216 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 14:16:10.078863 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 14:16:17.376897 Solicitud recibida: IP=[::1]:53748, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 14:16:17.559975 Token generado para el usuario y
+[srv] 2025/05/14 14:16:17.559975 --------------------Login exitoso para usuario y desde IP [::1]:53748-------------------
+[srv] 2025/05/14 14:16:17.559975 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 14:16:23.567134 Solicitud recibida: IP=[::1]:53748, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 14:16:23.569429 Autenticación TOTP exitosa
+[srv] 2025/05/14 14:16:23.569429 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 14:16:33.181864 Solicitud recibida: IP=[::1]:53748, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:16:33.182992 Expedientes obtenidos
+[srv] 2025/05/14 14:16:33.182992 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:16:33.184198 Solicitud recibida: IP=[::1]:53748, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:16:33.184773 Expedientes obtenidos
+[srv] 2025/05/14 14:16:33.184773 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:18:02.325384 **************************************************************************************************
+[srv] 2025/05/14 14:18:02.325384 Iniciando servidor...
+[srv] 2025/05/14 14:18:02.325384 Cargando variables de entorno...
+[srv] 2025/05/14 14:18:02.326186 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 14:18:02.326709 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 14:18:14.710539 Solicitud recibida: IP=[::1]:53816, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 14:18:14.887655 Token generado para el usuario y
+[srv] 2025/05/14 14:18:14.887655 --------------------Login exitoso para usuario y desde IP [::1]:53816-------------------
+[srv] 2025/05/14 14:18:14.887655 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 14:18:18.437602 Solicitud recibida: IP=[::1]:53816, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 14:18:18.438119 Autenticación TOTP exitosa
+[srv] 2025/05/14 14:18:18.438119 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 14:18:23.725734 Solicitud recibida: IP=[::1]:53816, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:18:23.727097 Expedientes obtenidos
+[srv] 2025/05/14 14:18:23.727097 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:18:23.728254 Solicitud recibida: IP=[::1]:53816, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:18:23.728861 Expedientes obtenidos
+[srv] 2025/05/14 14:18:23.728861 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:18:56.825859 Solicitud recibida: IP=[::1]:53816, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:18:56.826453 Expedientes obtenidos
+[srv] 2025/05/14 14:18:56.827108 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:20:52.826408 **************************************************************************************************
+[srv] 2025/05/14 14:20:52.826408 Iniciando servidor...
+[srv] 2025/05/14 14:20:52.826408 Cargando variables de entorno...
+[srv] 2025/05/14 14:20:52.827177 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 14:20:52.851758 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 14:21:12.074536 Solicitud recibida: IP=[::1]:53855, Método=POST, Ruta=/, Comando=register, Usuario=d
+[srv] 2025/05/14 14:21:12.074536 Respuesta enviada para comando 'register' (Usuario: d): Success=0
+[srv] 2025/05/14 14:21:23.500092 Solicitud recibida: IP=[::1]:53855, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 14:21:23.681176 Token generado para el usuario y
+[srv] 2025/05/14 14:21:23.681176 --------------------Login exitoso para usuario y desde IP [::1]:53855-------------------
+[srv] 2025/05/14 14:21:23.681176 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 14:21:28.942180 Solicitud recibida: IP=[::1]:53855, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 14:21:28.943439 Autenticación TOTP exitosa
+[srv] 2025/05/14 14:21:28.943439 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 14:22:00.293849 Solicitud recibida: IP=[::1]:53855, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:22:00.295268 Expedientes obtenidos
+[srv] 2025/05/14 14:22:00.295268 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:22:00.296451 Solicitud recibida: IP=[::1]:53855, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:22:00.297220 Expedientes obtenidos
+[srv] 2025/05/14 14:22:00.297220 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:22:04.484825 Solicitud recibida: IP=[::1]:53855, Método=POST, Ruta=/, Comando=crearExpediente, Usuario=y
+[srv] 2025/05/14 14:22:04.500304 Expediente creado y añadido al historial correctamente
+[srv] 2025/05/14 14:22:04.500304 Respuesta enviada para comando 'crearExpediente' (Usuario: y): Success=0
+[srv] 2025/05/14 14:22:05.486168 Solicitud recibida: IP=[::1]:53855, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 14:22:05.486776 Expedientes obtenidos
+[srv] 2025/05/14 14:22:05.486776 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 16:57:18.176766 **************************************************************************************************
+[srv] 2025/05/14 16:57:18.183492 Iniciando servidor...
+[srv] 2025/05/14 16:57:18.183492 Cargando variables de entorno...
+[srv] 2025/05/14 16:57:18.184259 MASTER_PASSWORD validada correctamente.
+[srv] 2025/05/14 16:57:18.194904 Iniciando servidor HTTPS en puerto 10443...
+[srv] 2025/05/14 16:57:30.129281 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=login, Usuario=y
+[srv] 2025/05/14 16:57:30.292170 Token generado para el usuario y
+[srv] 2025/05/14 16:57:30.292170 --------------------Login exitoso para usuario y desde IP [::1]:50940-------------------
+[srv] 2025/05/14 16:57:30.292170 Respuesta enviada para comando 'login' (Usuario: y): Success=0
+[srv] 2025/05/14 16:57:35.560674 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=verifyTOTP, Usuario=y
+[srv] 2025/05/14 16:57:35.561185 Autenticación TOTP exitosa
+[srv] 2025/05/14 16:57:35.561745 Respuesta enviada para comando 'verifyTOTP' (Usuario: y): Success=0
+[srv] 2025/05/14 16:57:41.744941 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 16:57:41.746222 Expedientes obtenidos
+[srv] 2025/05/14 16:57:41.746222 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 16:57:41.747466 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 16:57:41.748422 Expedientes obtenidos
+[srv] 2025/05/14 16:57:41.748422 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 16:58:11.641596 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 16:58:11.642195 Expedientes obtenidos
+[srv] 2025/05/14 16:58:11.642195 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 17:03:13.015796 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=modificarExpediente, Usuario=y
+[srv] 2025/05/14 17:03:13.025869 Expediente modificado correctamente
+[srv] 2025/05/14 17:03:13.025869 Respuesta enviada para comando 'modificarExpediente' (Usuario: y): Success=0
+[srv] 2025/05/14 17:03:58.946068 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 17:03:58.946686 Expedientes obtenidos
+[srv] 2025/05/14 17:03:58.946686 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 17:04:16.968350 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=verHistorialPaciente, Usuario=y
+[srv] 2025/05/14 17:04:16.968973 Expedientes obtenidos
+[srv] 2025/05/14 17:04:16.969658 Respuesta enviada para comando 'verHistorialPaciente' (Usuario: y): Success=0
+[srv] 2025/05/14 17:09:29.869698 Solicitud recibida: IP=[::1]:50940, Método=POST, Ruta=/, Comando=modificarExpediente, Usuario=y
+[srv] 2025/05/14 17:09:29.879243 Expediente modificado correctamente
+[srv] 2025/05/14 17:09:29.879243 Respuesta enviada para comando 'modificarExpediente' (Usuario: y): Success=0

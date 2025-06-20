@@ -1,0 +1,154 @@
+[cli] 2025/05/14 11:48:03.750923 **************************************************************************************************
+[cli] 2025/05/14 11:48:03.751438 Iniciando cliente...
+[cli] 2025/05/14 11:49:08.035980 Enviando solicitud 'register' al servidor
+[cli] 2025/05/14 11:49:08.035980 Registro exitoso
+[cli] 2025/05/14 11:49:56.187255 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 11:50:05.366003 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 11:50:05.366003 Código OTP proporcionado no es válido
+[cli] 2025/05/14 12:40:13.552885 **************************************************************************************************
+[cli] 2025/05/14 12:40:13.554289 Iniciando cliente...
+[cli] 2025/05/14 12:40:20.018358 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 12:40:25.398894 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 12:40:25.398894 Código OTP proporcionado es válido
+[cli] 2025/05/14 12:40:25.398894 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 12:40:47.133230 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 12:40:47.133230 DNI introducido es correcto
+[cli] 2025/05/14 12:42:37.285981 Enviando solicitud 'logout' al servidor
+[cli] 2025/05/14 12:42:37.285981 Sesión cerrada correctamente
+[cli] 2025/05/14 12:43:23.458067 Saliendo del cliente...
+[cli] 2025/05/14 12:55:23.212610 **************************************************************************************************
+[cli] 2025/05/14 12:55:23.212610 Iniciando cliente...
+[cli] 2025/05/14 12:57:35.133453 Saliendo del cliente...
+[cli] 2025/05/14 13:08:26.086092 **************************************************************************************************
+[cli] 2025/05/14 13:08:26.086092 Iniciando cliente...
+[cli] 2025/05/14 13:08:29.928520 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 13:08:37.790561 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 13:08:37.790561 Código OTP proporcionado es válido
+[cli] 2025/05/14 13:08:37.790561 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 13:08:44.854787 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 13:08:44.854787 DNI introducido es correcto
+[cli] 2025/05/14 13:08:48.136719 Enviando solicitud 'crearExpediente' al servidor
+[cli] 2025/05/14 13:08:48.137159 Expediente creado correctamente
+[cli] 2025/05/14 13:10:12.557135 **************************************************************************************************
+[cli] 2025/05/14 13:10:12.557135 Iniciando cliente...
+[cli] 2025/05/14 13:10:37.891202 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 13:10:43.126988 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 13:10:43.126988 Código OTP proporcionado es válido
+[cli] 2025/05/14 13:10:43.126988 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 13:10:49.413874 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 13:10:49.413874 DNI introducido es correcto
+[cli] 2025/05/14 13:14:38.408350 Enviando solicitud 'modificarExpediente' al servidor
+[cli] 2025/05/14 13:14:38.408350 Observación añadida correctamente
+[cli] 2025/05/14 13:15:04.993204 Enviando solicitud 'modificarExpediente' al servidor
+[cli] 2025/05/14 13:15:04.993204 Observación añadida correctamente
+[cli] 2025/05/14 13:15:37.571324 **************************************************************************************************
+[cli] 2025/05/14 13:15:37.571324 Iniciando cliente...
+[cli] 2025/05/14 13:15:46.736545 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 13:15:48.461882 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 13:15:48.462453 Código OTP proporcionado no es válido
+[cli] 2025/05/14 13:15:48.462453 ERROR iniciando sesión
+[cli] 2025/05/14 13:16:42.351347 **************************************************************************************************
+[cli] 2025/05/14 13:16:42.351347 Iniciando cliente...
+[cli] 2025/05/14 13:16:53.757649 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 13:16:54.781835 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 13:16:54.781835 Código OTP proporcionado no es válido
+[cli] 2025/05/14 13:16:54.781835 ERROR iniciando sesión
+[cli] 2025/05/14 13:52:58.137905 **************************************************************************************************
+[cli] 2025/05/14 13:52:58.138516 Iniciando cliente...
+[cli] 2025/05/14 13:53:07.952768 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 13:53:09.495340 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 13:53:09.495981 Código OTP proporcionado no es válido
+[cli] 2025/05/14 13:53:09.495981 ERROR iniciando sesión
+[cli] 2025/05/14 13:53:27.095396 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 13:53:30.654265 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 13:53:30.654265 Código OTP proporcionado es válido
+[cli] 2025/05/14 13:53:30.654265 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 13:54:26.923555 Enviando solicitud 'addPaciente' al servidor
+[cli] 2025/05/14 13:54:26.924125 Expediente creado correctamente
+[cli] 2025/05/14 13:54:32.975191 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 13:54:32.975191 ADVERTENCIA: el dni introducido: 12345, no existe
+[cli] 2025/05/14 13:54:39.591344 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 13:54:39.591344 DNI introducido es correcto
+[cli] 2025/05/14 13:54:43.148545 Enviando solicitud 'crearExpediente' al servidor
+[cli] 2025/05/14 13:54:43.148545 Expediente creado correctamente
+[cli] 2025/05/14 13:54:47.069894 Enviando solicitud 'crearExpediente' al servidor
+[cli] 2025/05/14 13:54:47.069894 ERROR AL CREAR EL EXPEDIENTE
+[cli] 2025/05/14 13:56:10.476751 Número de observaciones inválido: 0
+[cli] 2025/05/14 13:57:43.197374 **************************************************************************************************
+[cli] 2025/05/14 13:57:43.197374 Iniciando cliente...
+[cli] 2025/05/14 13:58:24.623901 Enviando solicitud 'register' al servidor
+[cli] 2025/05/14 13:59:13.038882 **************************************************************************************************
+[cli] 2025/05/14 13:59:13.038882 Iniciando cliente...
+[cli] 2025/05/14 13:59:16.695015 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 13:59:21.135104 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 13:59:21.135104 Código OTP proporcionado es válido
+[cli] 2025/05/14 13:59:21.135104 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 14:01:34.727904 **************************************************************************************************
+[cli] 2025/05/14 14:01:34.728535 Iniciando cliente...
+[cli] 2025/05/14 14:02:02.717028 **************************************************************************************************
+[cli] 2025/05/14 14:02:02.717028 Iniciando cliente...
+[cli] 2025/05/14 14:02:09.883971 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 14:02:15.662388 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 14:02:15.662388 Código OTP proporcionado es válido
+[cli] 2025/05/14 14:02:15.662388 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 14:02:33.462764 Enviando solicitud 'addPaciente' al servidor
+[cli] 2025/05/14 14:02:33.463313 ERROR AL CREAR EL EXPEDIENTE
+[cli] 2025/05/14 14:02:40.523255 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 14:02:40.523255 DNI introducido es correcto
+[cli] 2025/05/14 14:07:35.763623 **************************************************************************************************
+[cli] 2025/05/14 14:07:35.763623 Iniciando cliente...
+[cli] 2025/05/14 14:07:43.118355 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 14:07:47.968072 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 14:07:47.968654 Código OTP proporcionado es válido
+[cli] 2025/05/14 14:07:47.968654 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 14:07:53.999769 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 14:07:53.999769 DNI introducido es correcto
+[cli] 2025/05/14 14:09:05.758213 **************************************************************************************************
+[cli] 2025/05/14 14:09:05.758213 Iniciando cliente...
+[cli] 2025/05/14 14:09:10.894274 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 14:09:16.223190 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 14:09:16.223784 Código OTP proporcionado es válido
+[cli] 2025/05/14 14:09:16.223784 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 14:09:40.606384 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 14:09:40.606938 DNI introducido es correcto
+[cli] 2025/05/14 14:16:12.101361 **************************************************************************************************
+[cli] 2025/05/14 14:16:12.102165 Iniciando cliente...
+[cli] 2025/05/14 14:16:17.559975 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 14:16:23.569998 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 14:16:23.569998 Código OTP proporcionado es válido
+[cli] 2025/05/14 14:16:23.569998 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 14:16:33.182992 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 14:16:33.182992 DNI introducido es correcto
+[cli] 2025/05/14 14:18:04.391083 **************************************************************************************************
+[cli] 2025/05/14 14:18:04.391083 Iniciando cliente...
+[cli] 2025/05/14 14:18:14.887655 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 14:18:18.438811 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 14:18:18.438811 Código OTP proporcionado es válido
+[cli] 2025/05/14 14:18:18.438811 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 14:18:23.727097 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 14:18:23.727656 DNI introducido es correcto
+[cli] 2025/05/14 14:20:54.848616 **************************************************************************************************
+[cli] 2025/05/14 14:20:54.848616 Iniciando cliente...
+[cli] 2025/05/14 14:21:12.075129 Enviando solicitud 'register' al servidor
+[cli] 2025/05/14 14:21:23.681176 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 14:21:28.943439 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 14:21:28.943439 Código OTP proporcionado es válido
+[cli] 2025/05/14 14:21:28.943439 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 14:22:00.295268 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 14:22:00.295268 DNI introducido es correcto
+[cli] 2025/05/14 14:22:04.500883 Enviando solicitud 'crearExpediente' al servidor
+[cli] 2025/05/14 14:22:04.500883 Expediente creado correctamente
+[cli] 2025/05/14 16:57:20.223184 **************************************************************************************************
+[cli] 2025/05/14 16:57:20.232924 Iniciando cliente...
+[cli] 2025/05/14 16:57:30.292170 Enviando solicitud 'login' al servidor
+[cli] 2025/05/14 16:57:35.561745 Enviando solicitud 'verifyTOTP' al servidor
+[cli] 2025/05/14 16:57:35.561745 Código OTP proporcionado es válido
+[cli] 2025/05/14 16:57:35.561745 ------------------------Login exitoso para el usuario y---------------------------
+[cli] 2025/05/14 16:57:41.746222 Enviando solicitud 'verHistorialPaciente' al servidor
+[cli] 2025/05/14 16:57:41.746827 DNI introducido es correcto
+[cli] 2025/05/14 17:01:26.277367 Número de observaciones inválido: 0
+[cli] 2025/05/14 17:03:13.025869 Enviando solicitud 'modificarExpediente' al servidor
+[cli] 2025/05/14 17:03:13.026432 Observación añadida correctamente
+[cli] 2025/05/14 17:07:20.603106 Número de observaciones inválido: 0
+[cli] 2025/05/14 17:09:29.879243 Enviando solicitud 'modificarExpediente' al servidor
+[cli] 2025/05/14 17:09:29.879243 Observación añadida correctamente
