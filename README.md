@@ -1,10 +1,42 @@
-# Cibersecurity Project with GO
-It is based on a terminal interface in which a physician, once logged in, can add patients, observations and treatments to each patient. In addition, the same physician can add observations and treatments to patients of the same specialty.
-The importance of this work lies in the decisions made to ensure safety rather than in functionality. 
-Some of the main security measures are the use of ToTP for login, the generation of secure passwords, the use of hashing (with Argon2) to store passwords, the encryption of channels between clients and server with TLS, and the encryption of the data in the database itself.
+# 🔐 Cybersecurity Project with Go
 
-Despite its simplicity, it has served to lay the groundwork for cybersecurity in clinical environments and to learn first-hand about the most commonly used algorithms in this context.
+This is a terminal-based application designed for secure **patient management** in a clinical environment. Once authenticated, a physician can:
 
-Feel free to use it by running the main.go applet and try all the features that this mini project offers. 
+- Add new patients
+- Record observations and treatments
+- View and update records for patients within the same medical specialty
 
-If more information is needed on how to use it or some other issues, feel free to contact me.
+While the application remains simple in its interface and scope, the focus of this project lies in the **implementation of robust cybersecurity practices**, not just functionality.
+
+---
+
+## 🛡️ Key Security Features
+
+This project implements several standard security mechanisms used in healthcare and other sensitive environments:
+
+- **Two-Factor Authentication (2FA)** using Time-based One-Time Passwords (**TOTP**)  
+- **Secure password handling** using the **Argon2** hashing algorithm  
+- **TLS encryption** to secure communication between clients and server  
+- **Encrypted database fields** for sensitive patient data  
+- **Secure password generation** to avoid weak credentials
+
+---
+
+## 📚 Purpose
+
+The primary goal of this project is to **explore and apply security-first design principles** in a clinical software context. Through this work, I gained practical experience in:
+
+- Implementing cryptographic standards in Go
+- Balancing usability with secure design
+- Protecting sensitive health data in accordance with best practices
+
+This project serves as a foundational exercise in building secure systems for healthcare settings.
+
+---
+
+## ⚙️ How to Use
+
+To run the application:
+
+```bash
+go run main.go
